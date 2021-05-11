@@ -76,6 +76,7 @@ public class OrderSImpleApiController {
         private OrderStatus orderStatus;
         private Address address;
 
+
         public SimpleOrderDto (Order order ){
             orderId = order.getId();
             name = order.getMember().getName();
